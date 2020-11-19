@@ -35,7 +35,7 @@ class MainPage extends StatelessWidget{
 
               return Scaffold(
               appBar: AppBar(
-                title: Text('Todoアプリ'),
+                title: Text('Todoアプリー'),
                 actions: [
                   FlatButton(onPressed: isActive  ? () async {
                     await model.deleteCheckedItems();
